@@ -13,7 +13,6 @@
             <?php
                    }
                 ?>
-
         </div>
     </div>
     <div class="main">
@@ -68,11 +67,11 @@
             </form>
         </div>
         <div id="overlay"></div>
-        <div class="header">
+        <!-- <div class="header">
             <i class="fa-solid fa-user"></i>
             <p>Nguyen Truong Thinh</p>
             <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
-        </div>
+        </div> -->
         <div class="menu_content">
             <div class="food_list">
                 <div class="food_row shadow-4">

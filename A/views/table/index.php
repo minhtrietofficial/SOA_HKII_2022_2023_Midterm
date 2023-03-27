@@ -37,7 +37,7 @@ require_once('models/invoice.php');
     </div>
     <!-- <div id="overlay"></div> -->
     <div class="container">
-        <div class="sidebar">
+        <!-- <div class="sidebar">
             <div class="logo">
                 <img src="Assets/img/logo.png" alt="">
             </div>
@@ -45,13 +45,13 @@ require_once('models/invoice.php');
                 <a href="index.php?controller=table"><i class="fa-solid fa-table-cells-large"></i>TABLE LAYOUT</a>
                 <a href=""><i class="fa-solid fa-clipboard-list"></i>ORDER LIST</a>
             </nav>
-        </div>
+        </div> -->
         <div class="main">
-            <div class="header">
+            <!-- <div class="header">
                 <i class="fa-solid fa-user"></i>
                 <p>Nguyen Truong Thinh </p>
                 <a href="./logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
-            </div>
+            </div> -->
             <div class="content">
                 <div class="table_container">
                     <?php

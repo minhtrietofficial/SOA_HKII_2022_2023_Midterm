@@ -16,10 +16,7 @@
     <!-- CSS file from user -->
     <link rel="stylesheet" href="Assets/css/style.css">
     <link rel="stylesheet" href="Assets/css/shadow.css">
-
-
     <script src="Assets/ajax/main.js" type="text/javascript"></script>
-
 </head>
 
 <body>

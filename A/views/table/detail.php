@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="sidebar">
+        <!-- <div class="sidebar">
             <div class="logo">
                 <img src="./img/logo.png" alt="">
             </div>
@@ -23,13 +23,13 @@
                 <a href=""><i class="fa-solid fa-table-cells-large"></i>TABLE LAYOUT</a>
                 <a href=""><i class="fa-solid fa-clipboard-list"></i>ORDER LIST</a>
             </nav>
-        </div>
+        </div> -->
         <div class="main">
-            <div class="header">
+            <!-- <div class="header">
                 <i class="fa-solid fa-user"></i>
                 <p>Nguyen Truong Thinh</p>
                 <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
-            </div>
+            </div> -->
             <div class="table_detail_container">
                 <div class="table_wrapper">
                     <div class="shadow-4">
