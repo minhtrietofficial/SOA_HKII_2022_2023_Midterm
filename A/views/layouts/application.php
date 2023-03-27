@@ -21,19 +21,9 @@
 </head>
 
 <body >
-<div>
-        <?php
-        include("Modules/SideBar.php");
-        ?>
-        <div id="content-wrapper" class="d-flex flex-column">
-            <x`!-- Main Content -->
-                <div id="content">
-                    <?php include("Modules/Header.php"); ?>
-                    <?= @$content ?>
-                </div>
-        </div>
-
-    </div>
+    <?php include("Modules/SideBar.php");?>
+    <?php include("Modules/Header.php"); ?>
+    <?= @$content ?>
 </body>
 
 </html>

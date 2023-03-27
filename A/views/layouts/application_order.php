@@ -20,10 +20,9 @@
 </head>
 
 <body>
- 
-        <?php include("Modules/SideBar_order.php");        ?>
-        <?php include("Modules/Header.php"); ?>
-        <?= @$content ?>
+    <?php include("Modules/SideBar_order.php");?>
+    <?php include("Modules/Header.php"); ?>
+    <?= @$content ?>
 
 </body>
 
