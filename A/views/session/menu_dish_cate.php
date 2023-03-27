@@ -4,23 +4,7 @@ require_once ('models/dish.php');
 
 $category = category::all();
 ?>
-<div class="container">
-    <div class="menu_sidebar">
-        <div class="logo">
-            <img src="Assets/img/logo.png" alt="">
-        </div>
-        <h1>MENU</h1>
-        <div id="category">
-            <?php
-              foreach ($category as $item) {
-                ?>
-            <a href="index.php?controller=session&action=menu_dish_cate&cate_id=<?=$item->cate_id?>">
-                <?=$item->cate_name?> </a>
-            <?php
-            }
-          ?>
-        </div>
-    </div>
+
     <div class="main">
         <!-- <div class="order_detail shadow-4">
                 <form action="">
@@ -73,11 +57,7 @@ $category = category::all();
                 </form>
             </div>
             <div id="overlay"></div> -->
-        <div class="header">
-            <i class="fa-solid fa-user"></i>
-            <p>Nguyen Truong Thinh</p>
-            <a href="./logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
-        </div>
+
         <div class="menu_content">
             <div class="food_list">
                 <?php
@@ -143,5 +123,3 @@ $category = category::all();
                 <i class="fa-solid fa-cart-shopping"></i>ORDER
             </button>
         </div>
-    </div>
-</div>

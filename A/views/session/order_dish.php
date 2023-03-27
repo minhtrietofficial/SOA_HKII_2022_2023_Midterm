@@ -1,10 +1,3 @@
-<?php
-require_once ('models/category.php');
-require_once ('models/dish.php');
-
-$category = category::all();
-?>
-
 <div class="main">
     <div class="order_detail shadow-4">
         <form action="">
@@ -56,12 +49,12 @@ $category = category::all();
             </div>
         </form>
     </div>
-    <div id="overlay" class=""></div>
-    <div class="header">
-        <i class="fa-solid fa-user"></i>
-        <p>Nguyen Truong Thinh</p>
-        <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
-    </div>
+    <div id="overlay"></div>
+    <!-- <div class="header">
+            <i class="fa-solid fa-user"></i>
+            <p>Nguyen Truong Thinh</p>
+            <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+        </div> -->
     <div class="menu_content">
         <div class="food_list">
             <div class="food_row shadow-4">
@@ -71,10 +64,7 @@ $category = category::all();
                     <p class="food_name">Joe's KC BBQ</p>
                     <p class="food_dsc">Joe's KC Ribs, Brisket & Burnt Ends</p>
                     <p class="food_price">$ 110.99</p>
-                    <div class="toggle_wrapper">
-                        <input type="checkbox" name="" id="menu_toggle 1">
-                        <label for="menu_toggle 1" class="toggle_btn"></label>
-                    </div>
+                    <button>View</button>
                 </div>
             </div>
             <div class="food_row shadow-4">
@@ -84,10 +74,7 @@ $category = category::all();
                     <p class="food_name">Joe's KC BBQ</p>
                     <p class="food_dsc">Joe's KC Ribs, Brisket & Burnt Ends</p>
                     <p class="food_price">$ 110.99</p>
-                    <div class="toggle_wrapper">
-                        <input type="checkbox" name="" id="menu_toggle 2">
-                        <label for="menu_toggle 2" class="toggle_btn"></label>
-                    </div>
+                    <button>View</button>
                 </div>
             </div>
         </div>
@@ -104,10 +91,10 @@ $category = category::all();
                     </div>
                     <div class="food_dsc">
                         <span class="title">Description</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate.</p>
                     </div>
                     <div class="food_rate">
                         <span class="title">Rating</span>
@@ -119,9 +106,21 @@ $category = category::all();
                     </div>
                 </div>
             </div>
+            <div class="qty_wrapper">
+                <span class="minus">-</span>
+                <span class="num">1</span>
+                <span class="plus">+</span>
+            </div>
+            <button id="addToCard" class="shadow-4">Add to Order</button>
         </div>
     </div>
     <div class="footer">
         <a class="back" href="">BACK</a>
+        <p class="table">Table T-01</p>
+        <div id="divide">|</div>
+        <button class="order">
+            <div class="cart_qty">5</div>
+            <i class="fa-solid fa-cart-shopping"></i>ORDER
+        </button>
     </div>
 </div>

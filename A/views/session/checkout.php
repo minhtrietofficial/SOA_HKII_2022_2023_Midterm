@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
-    <!-- Poppin font family -->
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <!-- Font Awesone for Icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <!-- CSS file from user -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/shadow.css">
-</head>
-<body>
+
     <div class="container invoice">
         <div><a class="nav_btn" href="">Back</a></div>
         <div class="invoice_wrapper shadow-4">

@@ -20,16 +20,11 @@
 </head>
 
 <body>
-    <div>
-        <?php
-        include("Modules/SideBar_order.php");
-        ?>
-        <x`!-- Main Content -->
-            <?php include("Modules/Header_order.php"); ?>
-            <div class="menu_content">?>
-                <?= @$content ?>
+ 
+        <?php include("Modules/SideBar_order.php");        ?>
+        <?php include("Modules/Header.php"); ?>
+        <?= @$content ?>
 
-            </div>
 </body>
 
 </html>
