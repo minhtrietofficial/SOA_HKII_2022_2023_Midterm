@@ -1,7 +1,7 @@
 <?php
 setcookie("username_logged", "", time() -3600);
 unset($_SESSION['IdNV']);
-
+unset($_SESSION['use']);
 
 ?>
 <!DOCTYPE html>
