@@ -1,0 +1,78 @@
+
+.delete_btn[trangthai="Từ chối"]{
+    display: none;
+}
+.delete_btn[trangthai="Đã duyệt"]{
+    display: none;
+}
+.delete_btn[trangthai="Chờ duyệt"]{
+    display: none;
+}
+
+
+.duyet_btn[trangthai="Đã duyệt"]{
+    display: none;
+}
+.duyet_btn[trangthai="Vừa tạo"]{
+    display: none;
+}
+.duyet_btn[trangthai="Từ chối"]{
+    display: none;
+}
+.duyet_btn[quyen="nhanvien"]{
+    display: none;
+}
+
+
+.duyet_att_btn[trangthai="Đã duyệt"]{
+    display: none;
+}
+
+.duyet_btn[trangthai="Từ chối"]{
+    display: none;
+}
+
+.duyet_att_btn[trangthai="Từ chối"]{
+    display: none;
+}
+
+
+
+
+.edit_btn[trangthai="Chờ duyệt"]{
+    display: none;
+}
+
+.edit_btn[trangthai="Đã duyệt"]{
+    display: none;
+}
+.edit_btn[trangthai="Từ chối"]{
+    display: none;
+}
+.delete_btn[quyentruycap="nhanvien"]{
+    display: none;
+}
+.quyentruycap[quyentruycap = "nhanvien"]{
+    display: none;
+}
+.block_admin[quyentruycap = "admin"]{
+    display: none;
+}
+
+.trangthaiten[trangthai="Từ chối"]{
+    color: red;
+    font-weight: 600;
+}
+.trangthaiten[trangthai="Vừa tạo"]{
+    color: blue;
+    font-weight: 600;
+
+}.trangthaiten[trangthai="Đã duyệt"]{
+    color: green;
+    font-weight: 600;
+
+}.trangthaiten[trangthai="Chờ duyệt"]{
+    color: orange;
+    font-weight: 600;
+
+}

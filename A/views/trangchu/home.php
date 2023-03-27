@@ -1,25 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
-    <!-- Poppin font family -->
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <!-- Font Awesone for Icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <!-- CSS file from user -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/shadow.css">
-</head>
-<body>
+  
     <div class="container">
         <div class="menu_sidebar">
             <div class="logo">
                 <img src="./img/logo.png" alt="">
             </div>
-            <h1>MENU</h1>
+            <h1>MENU  </h1>
             <div id="category">
                 <button>BBQs</button>
                 <button>Steaks</button>
@@ -49,25 +34,7 @@
                                         <span class="num">1</span>
                                         <span class="plus">+</span>
                                     </div>
-                                </div>
-                                <div class="list_item">
-                                    <div>Burger01</div>
-                                    <div>50.000 VND</div>
-                                    <div class="order_qty_wrapper">
-                                        <span class="minus">-</span>
-                                        <span class="num">1</span>
-                                        <span class="plus">+</span>
-                                    </div>
-                                </div>
-                                <div class="list_item">
-                                    <div>Burger01</div>
-                                    <div>50.000 VND</div>
-                                    <div class="order_qty_wrapper">
-                                        <span class="minus">-</span>
-                                        <span class="num">1</span>
-                                        <span class="plus">+</span>
-                                    </div>
-                                </div>
+                                </div>                                
                             </div>
                         </div>
                     </div>
@@ -149,5 +116,3 @@
             </div>
         </div>
     </div>
-</body>
-</html>
