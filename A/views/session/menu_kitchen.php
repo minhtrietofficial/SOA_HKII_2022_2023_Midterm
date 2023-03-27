@@ -1,35 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
-    <!-- Poppin font family -->
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <!-- Font Awesone for Icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <!-- CSS file from user -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/shadow.css">
-</head>
-<body>
-    <div class="container">
-        <div class="menu_sidebar">
-            <div class="logo">
-                <img src="./img/logo.png" alt="">
-            </div>
-            <h1>MENU</h1>
-            <div id="category">
-                <button>BBQs</button>
-                <button>Steaks</button>
-                <button>Burgers</button>
-                <button class="active">Fried chicken</button>
-                <button>Drinks</button>
-                <button>Desserts</button>
-            </div>
+<?php
+require_once ('models/category.php');
+require_once ('models/dish.php');
+
+$category = category::all();
+?>
+<div class="container">
+    <div class="menu_sidebar">
+        <div class="logo">
+            <img src="Assets/img/logo.png" alt="">
         </div>
-        <div class="main">
+        <h1>MENU</h1>
+        <div id="category">
+            <?php
+              foreach ($category as $item) {
+                ?>
+            <a href="index.php?controller=session&action=menu_dish_cate&cate_id=<?=$item->cate_id?>">
+                <?=$item->cate_name?> </a>
+            <?php
+            }
+          ?>
+        </div>
+    </div>
+    <div class="main">
             <div class="order_detail shadow-4">
                 <form action="">
                     <div class="order_list_content">

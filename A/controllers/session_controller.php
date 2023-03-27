@@ -46,4 +46,10 @@ class SessionController extends BaseController
         $data = array('dish'=>$dish);
         $this->render('menu_dish_cate',$data);
     }
+    public function menu_kitchen()
+    {
+        $dish = dish::all();
+        $data = array('dish'=>$dish);
+        $this->render('menu_kitchen',$data);
+    }
 }

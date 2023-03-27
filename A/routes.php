@@ -7,7 +7,7 @@ $controllers = array(
     'account' => ['index', 'insert', 'edit'],
     'table' => ['index', 'detail','manage','edit','insert'],
     'category' => ['index', 'insert', 'edit'],
-    'session' => ['index', 'detail','detail_session','menu_dish_cate', 'order_dish', 'pay','insert','menu'],
+    'session' => ['index', 'detail','detail_session','menu_dish_cate', 'menu_kitchen','order_dish', 'pay','insert','menu'],
     'invoice' => ['index', 'detail','detail_session', 'order_dish', 'pay','insert'],
     'dish' => ['index', 'insert', 'edit'],
 

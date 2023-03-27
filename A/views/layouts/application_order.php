@@ -22,10 +22,10 @@
 <body>
     <div>
         <?php
-        include("Modules/SideBar.php");
+        include("Modules/SideBar_order.php");
         ?>
         <x`!-- Main Content -->
-            <?php include("Modules/Header.php"); ?>
+            <?php include("Modules/Header_order.php"); ?>
             <div class="menu_content">?>
                 <?= @$content ?>
 
