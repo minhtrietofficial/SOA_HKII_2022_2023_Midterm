@@ -32,9 +32,7 @@
                     <?= @$content ?>
                 </div>
         </div>
-        <!-- <?php
-                include("Modules/Footer.php");
-                ?> -->
+
     </div>
 </body>
 

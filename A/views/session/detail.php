@@ -1,22 +1,8 @@
 <?php
     require_once ('models/invoice.php');
 ?>
-<div class="container">
-    <div class="sidebar">
-        <div class="logo">
-            <img src="Assets/img/logo.png" alt="logo">
-        </div>
-        <nav>
-            <a href="index.php"><i class="fa-solid fa-table-cells-large"></i>TABLE LAYOUT</a>
-            <a href=""><i class="fa-solid fa-clipboard-list"></i>ORDER LIST</a>
-        </nav>
-    </div>
-    <div class="main">
-        <div class="header">
-            <i class="fa-solid fa-user"></i>
-            <p>Nguyen Truong Thinh</p>
-            <a href="./logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
-        </div>
+    
+       
         <div class="table_detail_container">
             <div class="table_wrapper">
                 <div class="shadow-4">
@@ -88,5 +74,3 @@
             <a class="back" href="">BACK</a>
             <button class="pay_order">Pay Order</button>
         </div>
-    </div>
-</div>
