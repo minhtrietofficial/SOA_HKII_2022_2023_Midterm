@@ -5,6 +5,7 @@ require_once ('models/dish.php');
 $category = category::all();
 ?>
 
+<div class="container">
     <div class="main">
         <!-- <div class="order_detail shadow-4">
                 <form action="">
@@ -123,3 +124,5 @@ $category = category::all();
                 <i class="fa-solid fa-cart-shopping"></i>ORDER
             </button>
         </div>
+    </div>
+</div>

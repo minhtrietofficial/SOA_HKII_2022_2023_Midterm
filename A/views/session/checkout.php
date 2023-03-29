@@ -1,5 +1,4 @@
-
-    <div class="container invoice">
+<div class="container invoice">
         <div><a class="nav_btn" href="">Back</a></div>
         <div class="invoice_wrapper shadow-4">
             <div class="inv_header">
@@ -101,5 +100,3 @@
         </div>
         
     </div>
-</body>
-</html>

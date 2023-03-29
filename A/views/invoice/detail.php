@@ -1,35 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table Detail</title>
-    <!-- Poppin font family -->
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <!-- Font Awesone for Icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <!-- CSS file from user -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/shadow.css">
-</head>
-<body>
-    <div class="container">
-        <div class="sidebar">
-            <div class="logo">
-                <img src="./img/logo.png" alt="">
-            </div>
-            <nav>
-                <a href=""><i class="fa-solid fa-table-cells-large"></i>TABLE LAYOUT</a>
-                <a href=""><i class="fa-solid fa-clipboard-list"></i>ORDER LIST</a>
-            </nav>
-        </div>
+<div class="container">
+    <?php include("Modules/SideBar.php"); ?>
         <div class="main">
-            <div class="header">
-                <i class="fa-solid fa-user"></i>
-                <p>Nguyen Truong Thinh</p>
-                <a href="./logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
-            </div>
+            <?php include("Modules/Header.php"); ?>
             <div class="table_detail_container">
                 <div class="table_wrapper">
                     <div class="shadow-4">
@@ -123,5 +95,3 @@
             </div>
         </div>
     </div>
-</body>
-</html>

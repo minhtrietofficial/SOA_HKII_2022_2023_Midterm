@@ -21,9 +21,7 @@ require_once('models/invoice.php');
 </div>
 <!-- <div id="overlay"></div> -->
 <div class="container">
-        <?php
-        include("Modules/SideBar.php");
-        ?>
+        <?php include("Modules/SideBar.php"); ?>
     <div class="main">
         <?php include("Modules/Header.php"); ?>
         <div class="content">

@@ -1,11 +1,7 @@
-
-    <div class="container">
+<div class="container">
+        <?php include("Modules/SideBar.php"); ?>
         <div class="main">
-            <!-- <div class="header">
-                <i class="fa-solid fa-user"></i>
-                <p>Nguyen Truong Thinh</p>
-                <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
-            </div> -->
+            <?php include("Modules/Header.php"); ?>
             <div class="list_content">
                 <div class="list_order">
                     <div class="status_filter">
