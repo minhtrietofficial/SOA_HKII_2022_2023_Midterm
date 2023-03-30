@@ -8,7 +8,7 @@
             <?php
                 foreach ($dish as $item) {
             ?>
-            <button><?=$item -> dish_name?></button>
+            <a class="dish_cate" href=""><?=$item -> dish_name?></a>
             <!-- <button class="active">Fried chicken</button> -->
             <?php
                    }
@@ -67,11 +67,7 @@
             </form>
         </div>
         <div id="overlay"></div>
-        <!-- <div class="header">
-            <i class="fa-solid fa-user"></i>
-            <p>Nguyen Truong Thinh</p>
-            <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
-        </div> -->
+        <?php include("Modules/Header.php"); ?>
         <div class="menu_content">
             <div class="food_list">
                 <div class="food_row shadow-4">

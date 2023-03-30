@@ -6,63 +6,24 @@ $category = category::all();
 ?>
 
 <div class="container">
+    <div class="menu_sidebar">
+        <div class="logo">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <h1>MENU</h1>
+        <div id="category">
+            <?php
+                foreach ($dish as $item) {
+            ?>
+            <a class="dish_cate" href=""><?=$item -> dish_name?></a>
+            <!-- <button class="active">Fried chicken</button> -->
+            <?php
+                   }
+                ?>
+        </div>
+    </div>
     <div class="main">
-        <div class="order_detail shadow-4">
-            <form action="">
-                <div class="order_list_content">
-                    <h1>Your Order</h1>
-                    <div class="order_food_list">
-                        <div class="list_header">
-                            <div>Sản phẩm</div>
-                            <div>Đơn giá</div>
-                            <div>Số lượng</div>
-                        </div>
-                        <div class="list_body">
-                            <div class="list_item">
-                                <div>Burger01</div>
-                                <div>50.000 VND</div>
-                                <div class="order_qty_wrapper">
-                                    <span class="minus">-</span>
-                                    <span class="num">1</span>
-                                    <span class="plus">+</span>
-                                </div>
-                            </div>
-                            <div class="list_item">
-                                <div>Burger01</div>
-                                <div>50.000 VND</div>
-                                <div class="order_qty_wrapper">
-                                    <span class="minus">-</span>
-                                    <span class="num">1</span>
-                                    <span class="plus">+</span>
-                                </div>
-                            </div>
-                            <div class="list_item">
-                                <div>Burger01</div>
-                                <div>50.000 VND</div>
-                                <div class="order_qty_wrapper">
-                                    <span class="minus">-</span>
-                                    <span class="num">1</span>
-                                    <span class="plus">+</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="order_list_footer">
-                    <div class="order_total_price">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        1.000.000 VND
-                    </div>
-                    <input type="submit" value="Place Order">
-                </div>
-            </form>
-        </div>
-        <div id="overlay" class=""></div>
-        <div class="header">
-            <i class="fa-solid fa-user"></i>
-            <p>Nguyen Truong Thinh</p>
-            <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
-        </div>
+        <?php include("Modules/Header.php"); ?>
         <div class="menu_content">
             <div class="food_list">
                 <div class="food_row shadow-4">
