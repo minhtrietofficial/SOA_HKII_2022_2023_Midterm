@@ -521,6 +521,28 @@
     margin-top: 15px;
 }
 
+/* DISH CATEGORY */
+a.dish_cate {
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    /* border-top: 1px solid black; */
+    color: var(--white);
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+a.dish_cate:hover {
+    background-color: var(--yellow);
+    transition: 0.5s;
+}
+
+a.dish_cate.active {
+    background-color: var(--yellow);
+}
+
 /* QUANTITY */
 .qty_wrapper {
     display: flex;
