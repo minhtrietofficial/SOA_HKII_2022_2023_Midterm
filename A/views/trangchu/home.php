@@ -2,8 +2,8 @@
     <div class="container">
         <div class="menu_sidebar">
             <div class="logo">
-                <img src="./img/logo.png" alt="">
-            </div>
+            <a href="index.php">
+            <img src="Assets/img/logo.png" alt=""></a>            </div>
             <h1>MENU  </h1>
             <div id="category">
                 <button>BBQs</button>

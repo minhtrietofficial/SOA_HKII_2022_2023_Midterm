@@ -8,7 +8,8 @@ $category = category::all();
 <div class="container">
     <div class="menu_sidebar">
         <div class="logo">
-            <img src="Assets/img/logo.png" alt="">
+        <a href="index.php">
+            <img src="Assets/img/logo.png" alt=""></a>
         </div>
         <a href="index.php?controller=session&action=menu"><h1>MENU</h1></a>
         <div id="category">
