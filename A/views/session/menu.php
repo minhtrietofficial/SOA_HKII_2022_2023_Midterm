@@ -9,14 +9,14 @@ $dish = dish::all();
 <div class="container">
     <div class="menu_sidebar">
         <div class="logo">
-            <img src="./img/logo.png" alt="">
+            <img src="Assets/img/logo.png" alt="">
         </div>
         <h1>MENU</h1>
         <div id="category">
             <?php
-                foreach ($dish as $item) {
+                foreach ($category as $item) {
             ?>
-            <a class="dish_cate" href=""><?=$item -> dish_name?></a>
+            <a class="dish_cate" href="index.php?controller=session&action=menu_dish_cate&cate_id=<?=$item -> cate_id?>"><?=$item -> cate_name?></a>
             <!-- <button class="active">Fried chicken</button> -->
             <?php
                    }
@@ -96,7 +96,7 @@ $dish = dish::all();
                     ?>
 
             </div>
-            <div class="food_detail">
+            <!-- <div class="food_detail">
                 <div class="food_info_wrapper">
                     <img class="shadow-4"
                         src="https://goldbelly.imgix.net/uploads/showcase_media_asset/image/79619/joes-kc-ribs-brisket-and-burnt-ends.6710e994980e485e6441b794717ad6fb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1"
@@ -130,7 +130,7 @@ $dish = dish::all();
                     <span class="plus">+</span>
                 </div>
                 <button id="addToCard" class="shadow-4">Add to Order</button>
-            </div>
+            </div> -->
         </div>
         <div class="footer">
             <a class="back" href="">BACK</a>

@@ -4,7 +4,9 @@
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
-
+a {
+    text-decoration: none;
+  }
 :root {
     --yellow: #c59d5f;
     --dark-yellow: #947647;

@@ -8,15 +8,14 @@ $category = category::all();
 <div class="container">
     <div class="menu_sidebar">
         <div class="logo">
-            <img src="./img/logo.png" alt="">
+            <img src="Assets/img/logo.png" alt="">
         </div>
-        <h1>MENU</h1>
+        <a href="index.php?controller=session&action=menu"><h1>MENU</h1></a>
         <div id="category">
             <?php
-                foreach ($dish as $item) {
+                foreach ($category as $item) {
             ?>
-            <a class="dish_cate" href=""><?=$item -> dish_name?></a>
-            <!-- <button class="active">Fried chicken</button> -->
+            <a class="dish_cate" href="index.php?controller=session&action=menu_dish_cate&cate_id=<?=$item -> cate_id?>"><?=$item -> cate_name?></a>
             <?php
                    }
                 ?>
