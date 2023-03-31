@@ -460,7 +460,7 @@
     width: 150px;
 }
 
-.food_row button {
+.food_row a {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -472,6 +472,8 @@
     padding: 6px 18px;
     font-size: 16px;
     border-radius: 5px;
+    text-decoration: none;
+    color: var(--white);
 }
 
 /* FOOD DETAIL */

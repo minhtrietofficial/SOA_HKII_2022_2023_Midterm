@@ -88,7 +88,7 @@ $dish = dish::all();
                         <p class="food_name"><?= $item->dish_name ?></p>
                         <p class="food_dsc"><?= $item->dish_dsc ?></p>
                         <p class="food_price">$ <?= $item->unit_price ?></p>
-                        <button>View</button>
+                        <a href="">View</a>
                     </div>
                 </div>
                 <?php

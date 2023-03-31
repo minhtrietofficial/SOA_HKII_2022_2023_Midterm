@@ -77,7 +77,7 @@
                         <p class="food_name">Joe's KC BBQ</p>
                         <p class="food_dsc">Joe's KC Ribs, Brisket & Burnt Ends</p>
                         <p class="food_price">$ 110.99</p>
-                        <button>View</button>
+                        <a href="">View</a>
                     </div>
                 </div>
                 <div class="food_row shadow-4">
@@ -87,7 +87,7 @@
                         <p class="food_name">Joe's KC BBQ</p>
                         <p class="food_dsc">Joe's KC Ribs, Brisket & Burnt Ends</p>
                         <p class="food_price">$ 110.99</p>
-                        <button>View</button>
+                        <a href="">View</a>
                     </div>
                 </div>
             </div>
